@@ -1,4 +1,4 @@
-The Optimized Binary Sort Algorithm is given here. Here are the key optimizations:
+The Optimized Binary Search Algorithm is given here. Here are the key optimizations:
 
 Correct Midpoint Calculation: The calculation of the mid index using "start + (end - start) / 2" ensures that it avoids integer overflow and accurately calculates the middle index.
 Updating Midpoint Within the Loop: The mid index is recalculated within the loop after updating the start or end pointers. This ensures that the search space is properly divided with each iteration.
